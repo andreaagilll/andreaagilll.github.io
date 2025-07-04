@@ -1,0 +1,84 @@
+<HTML>
+    <head>
+        <title>Formulario de Avril</title>
+    </head>
+    <body bgcolor="#fedffd">
+        <h1>Elementos del Formulario</h1>
+        <form action="300216@imcori.edu.mx">
+        <table>
+            <tr>
+                <td>Nombre del Alumno(a):</td>
+                <td><input name="alumno" type="text" size="45"></td>
+            </tr>
+             <tr>
+                <td>Años cumplidos:</td>
+                <td><input name="edad" type="text" size="7" maxlength="2"></td>
+            </tr>
+             <tr>
+                <td>Semestre:</td>
+                <td><input name="sem" type="radio">Segundo<br>
+                    <input name="sem" type="radio">Cuarto<br>
+                    <input name="sem" type="radio">Sexto</td>
+            </tr>
+            <tr>
+                <td>Grupo:</td>
+                <td><input name="gpo" type="radio" checked>A<br>
+                    <input name="gpo" type="radio">B<br>
+            </tr>
+            <tr>
+                <td>Área Propedéutica:</td>
+                <td><select name="area" id="areal">
+                    <option>Tronco común</option> 
+                    <option>Humanidades-Ciencias Sociales</option> 
+                    <option selected>Económico-Administrativa</option> 
+                    <option>Químico-Biológica</option> 
+                    <option>Físico-Matemático</option> 
+                </select>
+                    
+            </tr>
+            <tr>
+                <td>Pasatiempos:</td>
+                 <td><input name="div" type="checkbox">ver TV <br>
+                    <input name="div" type="checkbox">entrenar<br>
+                    <input name="div" type="checkbox">dormir<br>
+                    <input name="div" type="checkbox" checked>leer<br>
+                    
+                    
+            </tr>
+             <tr>
+                <td>Palabra Secreta:</td>
+                <td><input name="pass" type="password"> 
+            </tr>
+             <tr>
+                <td>Comentarios:</td>
+                <td><textarea name="comentarios"> </textarea>
+            </tr>
+            <tr>
+                <td><input name="borrar" type="reset" > 
+                </td>
+                <td><input name="enviar" type="submit" > 
+                </td>
+            </tr>
+        </table>
+        <center><input name="boton" type="button" value="DA CLIC"></center> 
+    </form>
+    <h2>Incrustando Obajetos en las P&aacute;ginas Web</h2>
+    <center> 
+        <embed src="pantalla.mp4" WIDTH="800" HEIGHT="500">
+    </center>
+    <H2>Visualizador de Documentos</H2>
+    <center>
+        <OBJECT Type="application/pdf" DATA="html.pdf" STYLE="width:600px; height:700px;"> 
+            ERROR (no puede mostrarse el objeto)
+        </OBJECT>
+    </center>
+    <H2>Visualizador de Videos Externos</H2>
+    <center>
+        <OBJECT Type="application/x-shockwave-flash" DATA="https://www.youtube.com/watch?v=UqsnTIFPEhg&list=RDUqsnTIFPEhg&start_radio=1" STYLE="width:425px; height:350px;">
+            <PARAM NAME="movie" 
+            VALUE="https://www.youtube.com/watch?v=UqsnTIFPEhg&list=RDUqsnTIFPEhg&start_radio=1"> 
+            ERROR (no puede mostrarse el objeto)
+        </OBJECT>
+    </center>
+    </body>
+</HTML>
